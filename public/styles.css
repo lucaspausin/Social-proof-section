@@ -619,14 +619,6 @@ video {
   flex-direction: column;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
-.items-end{
-  align-items: flex-end;
-}
-
 .items-center{
   align-items: center;
 }
@@ -679,7 +671,7 @@ video {
 }
 
 .bg-doubleMobile{
-  background-image: url('/public/images/bg-pattern-top-mobile.svg'),url('/public/images/bg-pattern-bottom-mobile.svg');
+  background-image: url('./images/bg-pattern-top-mobile.svg'),url('/public/images/bg-pattern-bottom-mobile.svg');
 }
 
 .bg-top-bottom{
@@ -865,7 +857,7 @@ video {
   }
 
   .lg\:bg-doubleDesktop{
-    background-image: url('/public/images/bg-pattern-top-desktop.svg'),url('/public/images/bg-pattern-bottom-desktop.svg');
+    background-image: url('./images/bg-pattern-top-desktop.svg'),url('/public/images/bg-pattern-bottom-desktop.svg');
   }
 
   .lg\:bg-top-left-bottom-right{
